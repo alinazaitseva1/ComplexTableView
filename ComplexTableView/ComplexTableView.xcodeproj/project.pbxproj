@@ -54,11 +54,11 @@
 		DC42C3A22165F00300E1B46C /* ComplexTableView */ = {
 			isa = PBXGroup;
 			children = (
-				DC42C3B52165F06B00E1B46C /* Supporting files */,
-				DC42C3B82165F0C100E1B46C /* Storyboards */,
-				DC42C3B72165F0B700E1B46C /* Models */,
-				DC42C3BA2165F0D500E1B46C /* Resources */,
 				DC42C3B62165F0A000E1B46C /* ViewControllers */,
+				DC42C3B72165F0B700E1B46C /* Models */,
+				DC42C3B82165F0C100E1B46C /* Storyboards */,
+				DC42C3BA2165F0D500E1B46C /* Resources */,
+				DC42C3B52165F06B00E1B46C /* Supporting files */,
 			);
 			path = ComplexTableView;
 			sourceTree = "<group>";
@@ -89,7 +89,7 @@
 		DC42C3B82165F0C100E1B46C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				DC42C3AC2165F00400E1B46C /* LaunchScreen.storyboard */,
+				DC42C3BD2166063A00E1B46C /* Launch */,
 				DC42C3A72165F00300E1B46C /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -102,6 +102,14 @@
 				DC42C3AA2165F00400E1B46C /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC42C3BD2166063A00E1B46C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DC42C3AC2165F00400E1B46C /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
