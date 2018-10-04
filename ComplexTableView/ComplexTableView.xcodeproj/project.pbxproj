@@ -12,6 +12,9 @@
 		DC42C3A92165F00300E1B46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC42C3A72165F00300E1B46C /* Main.storyboard */; };
 		DC42C3AB2165F00400E1B46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC42C3AA2165F00400E1B46C /* Assets.xcassets */; };
 		DC42C3AE2165F00400E1B46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC42C3AC2165F00400E1B46C /* LaunchScreen.storyboard */; };
+		DC42C3C0216615E000E1B46C /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42C3BF216615E000E1B46C /* PictureTableViewCell.swift */; };
+		DC42C3C22166164300E1B46C /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42C3C12166164300E1B46C /* HeaderTableViewCell.swift */; };
+		DC42C3C42166168C00E1B46C /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42C3C32166168C00E1B46C /* ContentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DC42C3AA2165F00400E1B46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC42C3AD2165F00400E1B46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC42C3AF2165F00400E1B46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC42C3BF216615E000E1B46C /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		DC42C3C12166164300E1B46C /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		DC42C3C32166168C00E1B46C /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		DC42C3A22165F00300E1B46C /* ComplexTableView */ = {
 			isa = PBXGroup;
 			children = (
+				DC42C3BE2166119700E1B46C /* Views */,
 				DC42C3B62165F0A000E1B46C /* ViewControllers */,
 				DC42C3B72165F0B700E1B46C /* Models */,
 				DC42C3B82165F0C100E1B46C /* Storyboards */,
@@ -110,6 +117,16 @@
 				DC42C3AC2165F00400E1B46C /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		DC42C3BE2166119700E1B46C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC42C3BF216615E000E1B46C /* PictureTableViewCell.swift */,
+				DC42C3C12166164300E1B46C /* HeaderTableViewCell.swift */,
+				DC42C3C32166168C00E1B46C /* ContentTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC42C3C22166164300E1B46C /* HeaderTableViewCell.swift in Sources */,
 				DC42C3A62165F00300E1B46C /* ViewController.swift in Sources */,
 				DC42C3A42165F00300E1B46C /* AppDelegate.swift in Sources */,
+				DC42C3C0216615E000E1B46C /* PictureTableViewCell.swift in Sources */,
+				DC42C3C42166168C00E1B46C /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
